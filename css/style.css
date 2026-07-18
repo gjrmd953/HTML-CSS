@@ -83,39 +83,69 @@ img {
 
 
 
+
+
+
+
 /*  */
-.hire-buttons{
-    display:flex;
-    gap:20px;
-    flex-wrap:wrap;
-    margin-top:30px;
+
+.hire-dropdown{
+    position: relative;
+    display: inline-block;
 }
 
 .hire-btn{
-    padding:14px 28px;
-    border-radius:8px;
+    background:#0f766e;
     color:#fff;
+    border:none;
+    padding:14px 30px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
     font-weight:600;
+}
+
+.hire-menu{
+    position:absolute;
+    top:60px;
+    left:0;
+    background:#fff;
+    width:220px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+    opacity:0;
+    visibility:hidden;
     transition:.3s;
 }
 
-.email{
-    background:#EA4335;
+.hire-menu a{
+    display:block;
+    padding:15px 20px;
+    color:#333;
+    border-bottom:1px solid #eee;
+    transition:.3s;
 }
 
-.whatsapp{
-    background:#25D366;
+.hire-menu a:last-child{
+    border-bottom:none;
 }
 
-.linkedin{
-    background:#0077B5;
+.hire-menu a:hover{
+    background:#0f766e;
+    color:#fff;
 }
 
-.hire-btn:hover{
-    transform:translateY(-5px);
-    opacity:.9;
+.hire-dropdown:hover .hire-menu{
+    opacity:1;
+    visibility:visible;
 }
+
 /*  */
+
+
+
+
 
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
