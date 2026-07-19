@@ -4,133 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jashim row css paktice</title>
+    <title>Md Jashim Uddin | Frontend Developer</title>
+    <meta name="description" content="Portfolio of Md Jashim Uddin, a frontend developer building modern, responsive websites with HTML, CSS, JavaScript and React.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+    <!-- Header / Navbar -->
     <section id="header">
         <div class="container">
             <nav class="navbar">
                 <div class="logo">
-                    <a href="#">GJR</a>
+                    <a href="#header">GJR</a>
                 </div>
 
                 <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
 
-                <!-- <div class="hire-buttons">
-                    <a href="mailto:gjr953@gmail.com" class="hire-btn email">
-                        📧 Email Me
-                    </a>
-
-                    <a href="https://wa.me/8801XXXXXXXXX" target="_blank" class="hire-btn whatsapp">
-                        💬 WhatsApp
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"
-                        class="hire-btn linkedin">
-                        💼 LinkedIn
-                    </a>
-                </div> -->
-
-                <!-- <div class="hire-buttons">
-
-                    <a href="mailto:gjr953@gmail.com" class="hire-btn email">
-                        <i class="fa-solid fa-envelope"></i> Email Me
-                    </a>
-
-                    <a href="https://wa.me/8801XXXXXXXXX" target="_blank" class="hire-btn whatsapp">
-                        <i class="fa-brands fa-whatsapp"></i> WhatsApp
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"
-                        class="hire-btn linkedin">
-                        <i class="fa-brands fa-linkedin"></i> LinkedIn
-                    </a>
-
-                </div> -->
-
-
                 <div class="hire-dropdown">
-
-                    <button class="hire-btn">
-                        Hire Me ▼
-                    </button>
-
+                    <button class="hire-btn">Hire Me ▾</button>
                     <div class="hire-menu">
                         <a href="mailto:gjr953@gmail.com">
-                            📧 Email
+                            <i class="fa-solid fa-envelope"></i> Email
                         </a>
-
-                        <a href="https://wa.me/8801XXXXXXXXX" target="_blank">
-                            💬 WhatsApp
+                        <a href="https://wa.me/8801XXXXXXXXX" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-whatsapp"></i> WhatsApp
                         </a>
-
-                        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
-                            💼 LinkedIn
+                        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-linkedin"></i> LinkedIn
                         </a>
                     </div>
-
                 </div>
-
             </nav>
         </div>
     </section>
 
-    </scetion>
-
-
-    <!-- banner part start -->
+    <!-- Banner -->
     <section class="banner">
-
         <div class="banner-text">
             <h4>Hello, I'm</h4>
-
             <h1>Md Jashim Uddin</h1>
-
             <h2>Frontend Developer</h2>
-
             <p>
                 I build modern, responsive and user-friendly websites
                 using HTML, CSS, JavaScript and React.
             </p>
 
             <div class="banner-btn">
-                <a href="#" class="btn1">Hire Me</a>
+                <a href="#contact" class="btn1">Hire Me</a>
                 <a href="#" class="btn2">Download CV</a>
             </div>
         </div>
 
         <div class="banner-image">
-            <img src="images/x.jpg" alt="x.jpg">
+            <img src="images/x.jpg" alt="Illustration of a laptop with code on screen">
         </div>
-
     </section>
-    <!-- banner part end -->
 
-    <!-- About Section Start -->
-
-    <section class="about">
-
+    <!-- About -->
+    <section class="about" id="about">
         <div class="about-image">
-            <img src="images/x.jpg" alt="Md Jashim Uddin">
+            <img src="images/dev-illustration.svg" alt="Illustration representing Md Jashim Uddin's development work">
         </div>
 
         <div class="about-content">
-
             <h4>About Me</h4>
-
             <h2>Frontend Developer From Bangladesh</h2>
 
             <p>
@@ -146,36 +93,26 @@
             </p>
 
             <div class="about-info">
-
                 <div class="info-box">
                     <h3>1+</h3>
                     <span>Years Learning</span>
                 </div>
-
                 <div class="info-box">
                     <h3>10+</h3>
                     <span>Projects</span>
                 </div>
-
                 <div class="info-box">
                     <h3>100%</h3>
                     <span>Responsive Design</span>
                 </div>
-
             </div>
 
-            <a href="#" class="about-btn">Read More</a>
-
+            <a href="#projects" class="about-btn">Read More</a>
         </div>
-
     </section>
 
-    <!-- About Section End -->
-
-    <!-- ===== Services Section Start ===== -->
-
-    <section class="services">
-
+    <!-- Services -->
+    <section class="services" id="services">
         <div class="section-title">
             <h4>My Services</h4>
             <h2>What I Do</h2>
@@ -186,65 +123,46 @@
         </div>
 
         <div class="service-container">
-
             <div class="service-card">
-                <div class="icon">💻</div>
+                <div class="icon"><i class="fa-solid fa-code"></i></div>
                 <h3>Web Development</h3>
-                <p>
-                    Responsive and modern websites using HTML, CSS, JavaScript and React.
-                </p>
+                <p>Responsive and modern websites using HTML, CSS, JavaScript and React.</p>
             </div>
 
             <div class="service-card">
-                <div class="icon">📱</div>
+                <div class="icon"><i class="fa-solid fa-mobile-screen"></i></div>
                 <h3>Responsive Design</h3>
-                <p>
-                    Websites that work perfectly on desktop, tablet and mobile devices.
-                </p>
+                <p>Websites that work perfectly on desktop, tablet and mobile devices.</p>
             </div>
 
             <div class="service-card">
-                <div class="icon">⚡</div>
+                <div class="icon"><i class="fa-solid fa-bolt"></i></div>
                 <h3>Performance</h3>
-                <p>
-                    Fast loading websites with clean structure and optimized code.
-                </p>
+                <p>Fast loading websites with clean structure and optimized code.</p>
             </div>
 
             <div class="service-card">
-                <div class="icon">🎨</div>
+                <div class="icon"><i class="fa-solid fa-palette"></i></div>
                 <h3>UI Design</h3>
-                <p>
-                    Beautiful and modern user interfaces focused on user experience.
-                </p>
+                <p>Beautiful and modern user interfaces focused on user experience.</p>
             </div>
 
             <div class="service-card">
-                <div class="icon">🔒</div>
+                <div class="icon"><i class="fa-solid fa-lock"></i></div>
                 <h3>Web Security</h3>
-                <p>
-                    Secure coding practices and basic website protection techniques.
-                </p>
+                <p>Secure coding practices and basic website protection techniques.</p>
             </div>
 
             <div class="service-card">
-                <div class="icon">🛠️</div>
+                <div class="icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
                 <h3>Maintenance</h3>
-                <p>
-                    Website updates, bug fixing and long-term maintenance support.
-                </p>
+                <p>Website updates, bug fixing and long-term maintenance support.</p>
             </div>
-
         </div>
-
     </section>
 
-    <!-- ===== Services Section End ===== -->
-
-    <!-- ===== Skills Section Start ===== -->
-
-    <section class="skills">
-
+    <!-- Skills -->
+    <section class="skills" id="skills">
         <div class="section-title">
             <h4>My Skills</h4>
             <h2>Technical Skills</h2>
@@ -255,59 +173,35 @@
         </div>
 
         <div class="skills-container">
-
             <div class="skill-box">
                 <h3>HTML</h3>
-                <div class="progress">
-                    <span style="width:95%;">95%</span>
-                </div>
+                <div class="progress"><span style="width:95%;">95%</span></div>
             </div>
-
             <div class="skill-box">
                 <h3>CSS</h3>
-                <div class="progress">
-                    <span style="width:90%;">90%</span>
-                </div>
+                <div class="progress"><span style="width:90%;">90%</span></div>
             </div>
-
             <div class="skill-box">
                 <h3>JavaScript</h3>
-                <div class="progress">
-                    <span style="width:80%;">80%</span>
-                </div>
+                <div class="progress"><span style="width:80%;">80%</span></div>
             </div>
-
             <div class="skill-box">
                 <h3>React JS</h3>
-                <div class="progress">
-                    <span style="width:75%;">75%</span>
-                </div>
+                <div class="progress"><span style="width:75%;">75%</span></div>
             </div>
-
             <div class="skill-box">
                 <h3>Tailwind CSS</h3>
-                <div class="progress">
-                    <span style="width:90%;">90%</span>
-                </div>
+                <div class="progress"><span style="width:90%;">90%</span></div>
             </div>
-
             <div class="skill-box">
-                <h3>Git & GitHub</h3>
-                <div class="progress">
-                    <span style="width:85%;">85%</span>
-                </div>
+                <h3>Git &amp; GitHub</h3>
+                <div class="progress"><span style="width:85%;">85%</span></div>
             </div>
-
         </div>
-
     </section>
 
-    <!-- ===== Skills Section End ===== -->
-
-    <!-- ===== Projects Section Start ===== -->
-
-    <section class="projects">
-
+    <!-- Projects -->
+    <section class="projects" id="projects">
         <div class="section-title">
             <h4>My Portfolio</h4>
             <h2>Latest Projects</h2>
@@ -318,18 +212,11 @@
         </div>
 
         <div class="project-container">
-
             <div class="project-card">
-                <img src="images/project-1.jpg" alt="E-Commerce Website">
-
+                <img src="images/project-1.svg" alt="E-Commerce Website preview">
                 <div class="project-content">
                     <h3>E-Commerce Website</h3>
-
-                    <p>
-                        A responsive online shopping website built with React,
-                        Tailwind CSS and JavaScript.
-                    </p>
-
+                    <p>A responsive online shopping website built with React, Tailwind CSS and JavaScript.</p>
                     <div class="project-btn">
                         <a href="#">Live Demo</a>
                         <a href="#">GitHub</a>
@@ -338,16 +225,10 @@
             </div>
 
             <div class="project-card">
-                <img src="images/project-2.jpg" alt="Portfolio Website">
-
+                <img src="images/project-2.svg" alt="Portfolio Website preview">
                 <div class="project-content">
                     <h3>Portfolio Website</h3>
-
-                    <p>
-                        A modern personal portfolio showcasing skills, projects
-                        and services with responsive design.
-                    </p>
-
+                    <p>A modern personal portfolio showcasing skills, projects and services with responsive design.</p>
                     <div class="project-btn">
                         <a href="#">Live Demo</a>
                         <a href="#">GitHub</a>
@@ -356,33 +237,21 @@
             </div>
 
             <div class="project-card">
-                <img src="images/project-3.jpg" alt="Task Manager App">
-
+                <img src="images/project-3.svg" alt="Task Manager App preview">
                 <div class="project-content">
                     <h3>Task Manager App</h3>
-
-                    <p>
-                        A task management application to add, edit and delete
-                        daily tasks with a clean UI.
-                    </p>
-
+                    <p>A task management application to add, edit and delete daily tasks with a clean UI.</p>
                     <div class="project-btn">
                         <a href="#">Live Demo</a>
                         <a href="#">GitHub</a>
                     </div>
                 </div>
             </div>
-
         </div>
-
     </section>
 
-    <!-- ===== Projects Section End ===== -->
-
-    <!-- ===== Contact Section Start ===== -->
-
-    <section class="contact">
-
+    <!-- Contact -->
+    <section class="contact" id="contact">
         <div class="section-title">
             <h4>Contact Me</h4>
             <h2>Let's Work Together</h2>
@@ -393,146 +262,78 @@
         </div>
 
         <div class="contact-container">
-
-            <!-- Left Side -->
-
             <div class="contact-info">
-
                 <div class="contact-box">
-                    <h3>📧 Email</h3>
+                    <h3><i class="fa-solid fa-envelope"></i> Email</h3>
                     <p>gjr953@gmail.com</p>
                 </div>
-
                 <div class="contact-box">
-                    <h3>📱 Phone</h3>
+                    <h3><i class="fa-solid fa-phone"></i> Phone</h3>
                     <p>+880 1XXXXXXXXX</p>
                 </div>
-
                 <div class="contact-box">
-                    <h3>📍 Location</h3>
+                    <h3><i class="fa-solid fa-location-dot"></i> Location</h3>
                     <p>Bangladesh</p>
                 </div>
-
             </div>
-
-            <!-- Right Side -->
 
             <form class="contact-form">
-
                 <input type="text" placeholder="Your Name" required>
-
                 <input type="email" placeholder="Your Email" required>
-
                 <input type="text" placeholder="Subject">
-
                 <textarea rows="6" placeholder="Your Message"></textarea>
-
                 <button type="submit">Send Message</button>
-
             </form>
-
         </div>
-
     </section>
 
-    <!-- ===== Contact Section End ===== -->
-
-    <!-- Footer Start -->
+    <!-- Footer -->
     <footer class="footer">
-
-        <div class="container">
-
-            <!-- Logo -->
+        <div class="footer-grid">
             <div class="footer-box">
                 <h2 class="logo">GJR.</h2>
-                <p>
-                    Front-End Developer creating modern,
-                    responsive and user-friendly websites.
-                </p>
+                <p>Front-End Developer creating modern, responsive and user-friendly websites.</p>
             </div>
 
-            <!-- Quick Links -->
             <div class="footer-box">
                 <h3>Quick Links</h3>
-
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
 
-            <!-- Contact -->
             <div class="footer-box">
                 <h3>Contact</h3>
-
-                <p>
-                    <i class="fa-solid fa-envelope"></i>
-                    gjr953@gmail.com
-                </p>
-
-                <p>
-                    <i class="fa-solid fa-phone"></i>
-                    +880 1234-567890
-                </p>
-
-                <p>
-                    <i class="fa-solid fa-location-dot"></i>
-                    Dhaka, Bangladesh
-                </p>
+                <p><i class="fa-solid fa-envelope"></i> gjr953@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +880 1234-567890</p>
+                <p><i class="fa-solid fa-location-dot"></i> Dhaka, Bangladesh</p>
             </div>
 
-            <!-- Subscribe -->
             <div class="footer-box">
                 <h3>Newsletter</h3>
-
                 <p>Subscribe to get latest updates.</p>
-
                 <form>
                     <input type="email" placeholder="Enter your email" required>
-
-                    <button type="submit">
-                        Subscribe
-                    </button>
+                    <button type="submit">Subscribe</button>
                 </form>
 
-                <!-- Social Icons -->
                 <div class="social-icons">
-
-                    <a href="#">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="fab fa-github"></i>
-                    </a>
-
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
                 </div>
-
             </div>
-
         </div>
 
         <div class="copyright">
-            <p>
-                © 2026 GJR. All Rights Reserved.
-            </p>
+            <p>© 2026 GJR. All Rights Reserved.</p>
         </div>
-
     </footer>
 
-
-
 </body>
-
 </html>
